@@ -1,0 +1,24 @@
+{
+    "name": "arabic0513/laravel_dst_eimzo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ArabicDev",
+            "email": "sardoryusupov230@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "arabic0513\\Eimzo\\Providers\\EimzoServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "arabic0513\\Eimzo\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
